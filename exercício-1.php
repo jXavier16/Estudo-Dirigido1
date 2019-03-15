@@ -5,6 +5,6 @@
         print "Digite um número em metros:" ;
         $numero = fgets (STDIN) ;
 
-        $milimetros = ($numero/1000) ;
+        $milimetros = ($numero * 1000) ;
 
         print "Esse número convertido fica em $milimetros milimetros." ;
